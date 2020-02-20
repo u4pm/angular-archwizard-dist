@@ -1210,7 +1210,7 @@ class WizardComponent {
 }
 WizardComponent.ɵfac = function WizardComponent_Factory(t) { return new (t || WizardComponent)(); };
 WizardComponent.ɵcmp = ɵngcc0.ɵɵdefineComponent({ type: WizardComponent, selectors: [["aw-wizard"]], contentQueries: function WizardComponent_ContentQueries(rf, ctx, dirIndex) { if (rf & 1) {
-        ɵngcc0.ɵɵcontentQuery(dirIndex, WizardStep, false);
+        ɵngcc0.ɵɵcontentQuery(dirIndex, WizardStep, true);
     } if (rf & 2) {
         var _t;
         ɵngcc0.ɵɵqueryRefresh(_t = ɵngcc0.ɵɵloadQuery()) && (ctx.wizardStepsQueryList = _t);

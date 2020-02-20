@@ -1,3 +1,6 @@
+#Custom version of angular archwizard -  contains fix which brings back previous behavior using @ContentChildren(WizardStep { descendants true })
+https://github.com/angular/angular/issues/14769#issuecomment-586726706 
+
 # Overview angular-archwizard
 
 [![Build Status](https://travis-ci.com/madoar/angular-archwizard.svg?branch=develop)](https://travis-ci.com/madoar/angular-archwizard)
